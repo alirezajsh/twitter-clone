@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.view.ChooseHashtags">
+   <children>
+      <Button fx:id="hashtag1" layoutX="300.0" layoutY="106.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="#hello" />
+      <Button fx:id="hashtag6" layoutX="155.0" layoutY="220.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="#tweet" />
+      <Button fx:id="hashtag5" layoutX="300.0" layoutY="220.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="#tweeter" />
+      <Button fx:id="hashtag3" layoutX="300.0" layoutY="161.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="#bye" />
+      <Button fx:id="hashtag4" layoutX="155.0" layoutY="161.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="#iran" />
+      <Button fx:id="hashtag2" layoutX="155.0" layoutY="106.0" mnemonicParsing="false" onAction="#changeColor" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: white;" text="#hi" />
+      <Button layoutX="262.0" layoutY="295.0" mnemonicParsing="false" onAction="#ok" text="ok" />
+      <Label fx:id="hashtagErrorMessage" layoutX="158.0" layoutY="260.0" prefHeight="17.0" prefWidth="268.0" textFill="RED" />
+   </children>
+</AnchorPane>
